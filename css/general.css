@@ -1,0 +1,99 @@
+/*
+---01 TYPOGRAPHY SYSTEM
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 /20 / 24 / 30 / 36 / 44/ 52 / 62 /  74 / 86 / 98
+- font weights 
+Default : 
+Meduam :
+Semi-bold : 
+BOLD: 
+
+- Line height :
+Default : 
+Small: 
+Medum:
+Paragraph  default : 
+large:
+
+-Linespacing :
+}
+
+- SPACING SYSTEM (px)
+ 2 / 4  / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+
+ --- 02 COLORS : #0f1234 ,#eef1f6
+ _ Primary ##ff3e66:
+ _ Tints 
+ _ Shads : 
+ _ Accents : 
+ _ Gray: #88888c
+        #dee2e6
+  
+   : 
+
+ ---05 SHADOWS : 
+
+ ---- 06 BORDER-RADIUS
+DEFAULT : 
+ -SPACING SYSTEM(px)
+  2 / 4  / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+
+*/
+
+/* Global setting */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #0f1234;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+
+/*cCOMPONENT*/
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.grid {
+  display: grid;
+  gap: 2.4rem;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+.grid--3-cols {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.grid--4-cols {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.heading-primary {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.2px;
+}
+.small-description {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+  color: #888c;
+}
